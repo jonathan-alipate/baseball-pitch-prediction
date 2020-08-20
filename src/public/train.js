@@ -1,3 +1,3 @@
-const pitchtype = require('pitch_type.js')
+const tfmodels = require('../pitch_type')
 
-document.getElementById('app').innerHTML(pitchtype)
+console.log('hi')

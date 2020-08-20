@@ -9,3 +9,6 @@ server.listen(port, () => {
 
 server.use(express.static(path.join(__dirname, 'public')))
 
+// server.get('/', (req, res) => {
+//     res.send(__dirname + '/pitch_type.js')
+// })

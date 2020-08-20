@@ -2,9 +2,9 @@
   "name": "simple-server-template",
   "version": "1.0.0",
   "description": "simple express server template",
-  "main": "src/index.js",
+  "main": "src",
   "scripts": {
-    "dev": "nodemon src"
+    "dev": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,14 @@
   },
   "homepage": "https://github.com/jonathan-alipate/simple-server-template#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@tensorflow/tfjs": "^2.3.0",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }

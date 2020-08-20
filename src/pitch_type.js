@@ -65,7 +65,6 @@ const testValidationData =
         .map(csvTransform)
         .batch(TEST_DATA_LENGTH);
 
-
 /// Neural network model
 const model = tf.sequential();
 model.add(tf.layers.dense({ units: 250, activation: 'relu', inputShape: [8] }));
